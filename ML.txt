@@ -1,0 +1,53 @@
+dimension = feature = column
+X _new = (X - X_min) / (X_max - X_min)
+ex :- if 20, 25, 30, then X_new = 0, 0.5, 1
+Data Splitting
+Splitting dataset into training.
+Dimensionality Reduction
+It is a crucial preprocesiing step.
+PCA :- Principal Component Analysis
+Data Augmentation :- It increase amount of data
+Conclusion
+4 Sep 2024
+Features we use while training :-
+Linear Regression :-
+Regression = continuous value
+ex :- package kitna lgega accoring to CPI
+classification :- ex :- packake lgega ya nhi
+Types of linear regression :-
+1. Simple
+2. Multiple
+3. Polynomial
+4. Ridge 
+5. Lasso
+6. Elastic Net
+7. Robust
+Linear Regression model gives us a line.
+Line depends on slope & intercept.
+y-intercept
+slope = c
+y = mx + c
+In ML
+c = Beta not
+m = Beta 1
+x = CPI
+y = package
+we are predicting y
+actual value is y
+predicted value is y hash
+In linear gradient :-
+m -> weight
+c -> bias
+x = 0 means salary is zero
+salary is never 0
+ways to calc line :-
+1. simle, LSI (least internal square value)
+simle linear regression follows mathematical formula.
+gradient descent
+we can valuees of m & c.
+y = mx + c
+c = y - mx
+bar = mean
+m = (y - c)/x
+formula for calculating m from line y = mx + c in machine learning, linear regression model
+m = {(y-y_bar)*(x-x_bar)}
